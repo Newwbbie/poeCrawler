@@ -1,0 +1,15 @@
+server:
+  port: 2333
+
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+#  datasource:
+#    url: jdbc:mysql://129.204.17.213:3306/demoDB?useUnicode=true&characterEncoding=utf-8
+#    username: demoDB
+#    password: dTftjYxiHPmt8fsw
