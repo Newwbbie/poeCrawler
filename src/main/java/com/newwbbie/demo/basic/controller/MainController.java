@@ -1,6 +1,6 @@
-package com.newwbbie.demo.Controller;
+package com.newwbbie.demo.basic.controller;
 
-import com.newwbbie.demo.Service.MainService;
+import com.newwbbie.demo.basic.service.MainService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,5 +16,11 @@ public class MainController {
     @RequestMapping("/welcome")
     public String welcome () {
         return "welcome";
+    }
+
+    @ResponseBody
+    @RequestMapping("/getInfo")
+    public String getInfo () {
+        return mainService.getInfo();
     }
 }
