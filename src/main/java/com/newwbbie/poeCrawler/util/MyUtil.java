@@ -1,4 +1,4 @@
-package com.newwbbie.demo.util;
+package com.newwbbie.poeCrawler.util;
 
 import org.jasypt.util.text.BasicTextEncryptor;
 
