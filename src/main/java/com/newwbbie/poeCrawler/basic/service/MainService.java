@@ -1,4 +1,4 @@
-package com.newwbbie.demo.basic.service;
+package com.newwbbie.poeCrawler.basic.service;
 
 public interface MainService {
     String getInfo();

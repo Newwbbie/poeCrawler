@@ -1,7 +1,7 @@
-package com.newwbbie.demo.basic.service.serviceImpl;
+package com.newwbbie.poeCrawler.basic.service.serviceImpl;
 
-import com.newwbbie.demo.basic.dao.MainDao;
-import com.newwbbie.demo.basic.service.MainService;
+import com.newwbbie.poeCrawler.basic.dao.MainDao;
+import com.newwbbie.poeCrawler.basic.service.MainService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
