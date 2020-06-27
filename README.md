@@ -1,2 +1,5 @@
 # poeCrawler
-基于Java爬虫工具webmagic做的一个可以定时运行的springBoot项目
+基于webmagic的springBoot项目
+1.定时运行
+2.数据持久化到mysql
+3.模块清晰，自由度高
