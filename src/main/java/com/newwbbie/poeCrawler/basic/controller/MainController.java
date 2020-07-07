@@ -35,7 +35,7 @@ public class MainController {
     }
 
     @RequestMapping("/startUU")
-    @Scheduled(cron = "0 0/1 * * * ?")
+//    @Scheduled(cron = "0 0/1 * * * ?")
     public void startUU () {
         Spider.create(new UUPageProcessor())
                 .addUrl("http://www.uu898.com/newTrade.aspx?gm=385&area=2819&srv=44292")
