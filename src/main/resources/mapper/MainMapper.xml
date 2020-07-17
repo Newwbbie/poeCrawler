@@ -6,6 +6,10 @@
         select staff_name from yw_staff where staff_id = 0
     </select>
 
+    <select id="getEInfo" resultType="map">
+        SELECT * FROM uustone WHERE name =  '崇高石' ORDER BY date DESC LIMIT 10
+    </select>
+
     <insert id="addUU" parameterType="map">
         insert into uustone (name, price, date) values (#{name}, #{price}, #{date})
     </insert>
